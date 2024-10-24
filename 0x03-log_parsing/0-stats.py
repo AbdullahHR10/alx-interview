@@ -33,7 +33,3 @@ def print_metrics(total_file_size, status_code_count):
     print(f"Total file size: {total_file_size}")
     for status_code in sorted(status_code_count.keys()):
         print(f"{status_code}: {status_code_count[status_code]}")
-
-
-if __name__ == "__main__":
-    process_logs()
